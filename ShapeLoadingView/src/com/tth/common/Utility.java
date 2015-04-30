@@ -8,7 +8,7 @@ public class Utility {
 	 * dip px 转换
 	 * 
 	 * @param dipValue
-	 * @return
+	 * @return dip的换算： dip（value）=(int) (px（value）/1.5 + 0.5)
 	 */
 	public static int dip2px(Context mContext, float dipValue) {
 		final float scale = mContext.getResources().getDisplayMetrics().density;

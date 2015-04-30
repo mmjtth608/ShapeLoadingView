@@ -8,6 +8,11 @@ import com.tth.widget.LoadingView;
 import android.app.Activity;
 import android.os.Bundle;
 
+/**
+ * 
+ * @author tangbin
+ * 
+ */
 public class MainActivity extends Activity {
 	LoadingView mLoadingView = null;
 	List<String> loadingTexts = null;
@@ -21,6 +26,9 @@ public class MainActivity extends Activity {
 		loadingTexts.add(" 加载中.      ");
 		loadingTexts.add(" 加载中..     ");
 		loadingTexts.add(" 加载中...    ");
+		// 设置loading底部变化的文字循环播放
+		// mLoadingView.setLoadingText(loadingText)
+		// settext设置不变化的文字
 		mLoadingView.setLoadingTexts(loadingTexts);
 	}
 }
