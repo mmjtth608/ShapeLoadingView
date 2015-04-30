@@ -10,7 +10,7 @@ import android.view.View;
 import com.tth.shapeloadingview.R;
 
 /**
- * Created by tb on 15/4/24.
+ * Created by tangbin on 15/4/24.
  */
 public class ShapeLoadingView extends View {
 

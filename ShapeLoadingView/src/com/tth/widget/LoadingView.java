@@ -25,7 +25,7 @@ import com.tth.common.Utility;
 import com.tth.shapeloadingview.R;
 
 /**
- * Created by tb on 15/4/26.
+ * Created by tangbin on 15/4/26.
  */
 public class LoadingView extends FrameLayout {
 
